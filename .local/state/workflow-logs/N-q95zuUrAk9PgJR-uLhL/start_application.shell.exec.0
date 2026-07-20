@@ -1,0 +1,1714 @@
+ *pygbag 0.9.3*
+
+Serving python files from [/home/runner/workspace/build/web]
+
+with no security/performance in mind, i'm just a test tool : don't rely on me
+
+
+SUMMARY
+________________________
+
+# the app folder
+app_folder=/home/runner/workspace
+
+# artefacts directory
+build_dir=/home/runner/workspace/build/web
+
+# cache directory
+cache=/home/runner/workspace/build/web-cache
+
+# the window title and icon name
+app_name=workspace
+
+# package name, better make it unique
+package=web.pygame.workspace-1784496836
+
+# icons:  96x96 for desktop, 16x16 for web
+icon=favicon.png
+
+# js/wasm provider
+cdn=https://pygame-web.github.io/cdn/0.9.3/
+
+now packing application ....
+
+
+WARNING: No pygbag.ini found! See: https://pygame-web.github.io/wiki/pygbag-configuration
+Ignored dirs: []
+Ignored files: []
+Now in /
+     /README.md
+     /space_shooter.py
+     /writeThis.txt
+     /main.py
+     /pyproject.toml
+     /uv.lock
+     /run.sh
+Now in /.cache/replit
+     /.cache/replit/modules.stamp
+     /.cache/replit/toolchain.json
+Now in /.cache/replit/modules
+     /.cache/replit/modules/replit
+     /.cache/replit/modules/replit.res
+     /.cache/replit/modules/python-3.12
+     /.cache/replit/modules/python-3.12.res
+     /.cache/replit/modules/replit-rtld-loader
+     /.cache/replit/modules/replit-rtld-loader.res
+Now in /.cache/replit/env
+     /.cache/replit/env/latest
+     /.cache/replit/env/latest.json
+Now in /.cache/replit/nix
+     /.cache/replit/nix/dotreplitenv.json
+Now in /.cache/uv
+     /.cache/uv/CACHEDIR.TAG
+Now in /.cache/uv/interpreter-v4/28564ceaaa7d60ea
+     /.cache/uv/interpreter-v4/28564ceaaa7d60ea/1ce3422acff54bc6.msgpack
+     /.cache/uv/interpreter-v4/28564ceaaa7d60ea/8c0783e576dbb580.msgpack
+Now in /.cache/uv/simple-v18/pypi
+     /.cache/uv/simple-v18/pypi/pygbag.rkyv
+     /.cache/uv/simple-v18/pypi/pygame.rkyv
+Now in /.cache/uv/wheels-v5/pypi/pygame
+     /.cache/uv/wheels-v5/pypi/pygame/2.6.1-cp312-cp312-macosx_10_9_x86_64.msgpack
+     /.cache/uv/wheels-v5/pypi/pygame/2.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.http
+Now in /.cache/uv/wheels-v5/pypi/pygbag
+     /.cache/uv/wheels-v5/pypi/pygbag/0.9.3-py3-none-any.msgpack
+     /.cache/uv/wheels-v5/pypi/pygbag/0.9.3-py3-none-any.http
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/__init__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/__main__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/aio.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/app.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/config_to_object.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/config_types.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/dbgserv.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/example_config.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/filtering.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/fnv.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/gateway.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/gathering.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/html_embed.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/mutator.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/pack.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/testserver.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/web.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing-pygbag.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cpythonrc.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/offline.png
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pygbag_app.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pygbag_fsm.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pygbag_host.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pygbag_ui.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pygbag_ux.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pyodide.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/pyscript.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/readline.new
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/readline.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/typing_extensions.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cpythonrc-pygbag.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/__init__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_ansi_sequences.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_context.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_parser.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_time.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_types.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/_xterm_parser.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/case.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/events.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/geometry.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/keys.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/message.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/_xterm_parser/messages.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/__EMSCRIPTEN__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/__WASM__.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/__init__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/atexit.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/clock.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/cross.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/fetch.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/filelike.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/gthread.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/pep0723.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/prepro.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/recycle.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/repl.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/toplevel.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/aio/tracer.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/tomllib
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/tomllib/__init__.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/tomllib/_parser.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/tomllib/_re.py
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cross/tomllib/_types.py
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/METADATA
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/WHEEL
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/entry_points.txt
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/top_level.txt
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/RECORD
+Now in /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/licenses
+     /.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag-0.9.3.dist-info/licenses/LICENSE
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libSDL2_ttf-2-e6bdbc24.0.so.0.2000.1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/liblz4-af1653fb.so.1.8.3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libmpg123-fad61782.so.0.47.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libharfbuzz-f991c6ff.so.0.50100.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libpulsecommon-14-80414fd3.2.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libsharpyuv-5ed6246f.so.0.0.1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libfluidsynth-3137fad6.so.3.1.1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libpng16-bb793e21.so.16.37.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libgpg-error-3f09c3c7.so.0.10.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libsystemd-7fd64813.so.0.6.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libbz2-a273e504.so.1.0.6
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libtiff-23a934bd.so.5.8.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libelf-0-3d9de92a.176.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libopus-56ba99ed.so.0.8.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libSDL2_image-2-6bbdaa8d.0.so.0.2.3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libpcre-9513aab5.so.1.2.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libgomp-a34b3233.so.1.0.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libpulse-simple-4ba3beb5.so.0.1.1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libjpeg-4617cdcb.so.62.3.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libportmidi-6df3607d.so.2.0.3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libpulse-5b5d1e90.so.0.23.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libselinux-0922c95c.so.1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libasound-d80805e8.so.2.0.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libdw-0-780627ce.176.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libbrotlicommon-f54d67a1.so.1.0.9
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libFLAC-c5c6b3bc.so.8.3.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libvorbisenc-bb396c4a.so.2.0.12
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libfreetype-402bc0e3.so.6.18.3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libcap-79733b59.so.2.22
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libopusfile-df4005ff.so.0.4.5
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libsndfile-2f719936.so.1.0.34
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libSDL2-2-1667c208.0.so.0.2800.4
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libvorbis-ac399090.so.0.4.9
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libdbus-1-5d678da9.so.3.14.14
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libvorbisfile-8aced0b7.so.3.3.8
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libSDL2_mixer-2-673d03d7.0.so.0.600.3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libattr-4f2a9577.so.1.1.0
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/liblzma-004595ca.so.5.2.2
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libogg-3f4a1572.so.0.8.5
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libbrotlidec-ffc423df.so.1.0.9
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libwebp-3bee5bfa.so.7.1.8
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame.libs/libgcrypt-18957bae.so.11.8.2
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/_camera.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/_surface.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/_pygame.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/_blit_info.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/simd_blitters.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pgarrinter.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/font.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/camera.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/mask.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/surface.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pgopengl.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pgcompat.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/freetype.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pgplatform.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/mixer.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/scrap.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pygame.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/palette.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/pgbufferproxy.h
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pgimport.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame_bufferproxy.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/_pygame.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/bitmask.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame_freetype.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pgcompat.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/sse2neon.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pgplatform.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame_mask.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame_font.h
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.data/headers/include/pygame_mixer.h
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/rwobject.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/color.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/surface.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/draw_py.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/transform.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/constants.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/imageext.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/display.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/sysfont.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pixelcopy.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_camera_opencv.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pygame_icon.icns
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/freesansbold.ttf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/cursors.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/version.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/macosx.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/mouse.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/key.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_camera_vidcapture.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_camera.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_freetype.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/surflock.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/sndarray.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/mixer.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pypm.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pygame.ico
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/joystick.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/bufferproxy.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/midi.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/font.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/surfarray.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/base.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/camera.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/image.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/scrap.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/gfxdraw.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/py.typed
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/rect.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/newbuffer.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/draw.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/time.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pygame_icon_mac.bmp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/freetype.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pygame_icon.bmp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/sprite.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/ftfont.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/mixer_music.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/mask.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sprite.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/colordict.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pixelarray.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/pkgdata.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/locals.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/fastevent.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/math.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/event.cpython-312-x86_64-linux-gnu.so
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/dropevent.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/vgrade.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/aliens.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/stars.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sprite_texture.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/glcube.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/cursors.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blit_blends.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound_array_demos.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/eventlist.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/headless_no_windows_needed.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/moveit.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blend_fill.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/midi.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/joystick.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/setmodescale.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/textinput.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/testsprite.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scrap_clipboard.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/music_drop_fade.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/camera.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/freetype_misc.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scaletest.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/resizing_new.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/playmus.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/fonty.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/pixelarray.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/font_viewer.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/go_over_there.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/chimp.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/grid.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/video.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/arraydemo.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/mask.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/README.rst
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scroll.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/audiocapture.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/liquid.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/aacircle.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/aliens-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blit_blends-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound_array_demos-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/moveit-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blend_fill-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/testsprite-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scrap_clipboard-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/pixelarray-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/chimp-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/video-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/arraydemo-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scroll-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/liquid-pygbag.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien3.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/yellow.tga
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/fist.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/grey.pgm
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/secosmic_lo.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/blue.mpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/sans.ttf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/cursor.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/boom.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/background.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/asprite.bmp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/BGR.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/bomb.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien1.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/green.pcx
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/crimson.pnm
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/static.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/blue.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/arraydemo.bmp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/teal.svg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/chimp.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/player1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/whiff.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien2.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/city.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/brick.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/red.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/car_door.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien2.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/shot.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/scarlet.webp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/turquoise.tif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/liquid.bmp
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/black.ppm
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/danger.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.mp3
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/laplacian.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/midikeys.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/alien3.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/purple.xpm
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/explosion1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/punch.wav
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo-pygbag.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/secosmic_lo-pygbag.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/boom-pygbag.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/whiff-pygbag.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/car_door-pygbag.ogg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/punch-pygbag.ogg
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__pyinstaller
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__pyinstaller/hook-pygame.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__pyinstaller/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__pyinstaller/hook-pygame-pygbag.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/__main__.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/genindex.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/LGPL.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/filepaths.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/py-modindex.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/logos.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/index.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/searchindex.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/search.html
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/filepaths.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/index.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/logos.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/c_api.rst.txt
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/pygame.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/scrap.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/sdl2_controller.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/gfxdraw.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/context.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/time.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/display.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/surface.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/sndarray.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/transform.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/overlay.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/mask.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/color_list.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/touch.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/music.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/fastevent.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/examples.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/mouse.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/rect.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/freetype.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/font.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/cursors.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/key.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/pixelcopy.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/surfarray.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/image.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/math.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/sprite.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/bufferproxy.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/pixelarray.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/cdrom.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/locals.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/sdl2_video.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/midi.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/color.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/camera.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/joystick.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/draw.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/event.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/tests.rst.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_sources/ref/mixer.rst.txt
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/DisplayModes.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/ChimpLineByLine.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/tom_games5.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/tom_games6.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/MoveIt.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/newbieguide.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/tom_games4.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/ImportInit.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/SurfarrayIntro.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/tom_games3.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/chimp.py.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/CameraIntro.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/PygameIntro.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/SpriteIntro.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/tom_games2.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/tut/MakeGames.html
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/bufferproxy.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/slots.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/surface.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/cdrom.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/event.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/version.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/rwobject.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/base.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/display.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/rect.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/freetype.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/surflock.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/mixer.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/c_api/color.html
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/sphinx_highlight.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/reset.css
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_logo.svg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/plus.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/_sphinx_javascript_frameworks_compat.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/doctools.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_lofi.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/jquery-3.5.1.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame.ico
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/tooltip.css
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/basic.css
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_powered.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_logo.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/underscore-1.13.1.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_tiny.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_lofi.svg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/underscore.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/searchtools.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/legacy_logos.zip
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_powered_lowres.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/language_data.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame.css
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/file.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygments.css
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/pygame_powered.svg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/documentation_options.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/minus.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/jquery-3.6.0.js
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_static/jquery.js
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/bufferproxy.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/joystick.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/surface.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/sndarray.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/cdrom.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/event.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/mouse.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/surfarray.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/math.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/sprite.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/sdl2_video.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/draw.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/tests.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/pixelarray.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/scrap.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/locals.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/key.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/pygame.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/context.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/fastevent.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/music.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/cursors.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/font.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/display.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/rect.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/camera.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/examples.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/color_list.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/freetype.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/gfxdraw.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/midi.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/mask.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/time.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/touch.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/pixelcopy.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/sdl2_controller.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/overlay.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/transform.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/mixer.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/color.html
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/ref/image.html
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Basic-ouput-sourcecode1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess51.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_allblack.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput31.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_rgb.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput21.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_thresh.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/tom_radians.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput51.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_scaleup.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_yuv.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-TPS.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess21.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-PuyoPuyo.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Basic-ouput-sourcecode.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_mask.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-Battleship1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-Battleship.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess61.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess5.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_rgbarray.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/pygame_lofi.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/chimpshot1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha21.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_thresholded.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/pygame_powered.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput5.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_flipped.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess41.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess31.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput3.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/pygame_logo.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_scaledown.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/pygame_tiny.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha31.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_soften.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess11.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_average.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha2.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess6.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/chimpshot.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_hsv.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/pygame_powered_lowres.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_background.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/camera_green.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-INPUT-resultscreen.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/tom_basic.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess3.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-INPUT-resultscreen1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-ouput-result-screen.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess2.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput1.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput41.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-TPS1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/angle_to.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_striped.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha3.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput11.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-ouput-result-screen1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/intro_freedom.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/tom_event-flowchart.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput4.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_xfade.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/surfarray_redimg.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputProcess4.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/joystick_calls.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-INPUT-sourcecode1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/tom_formulae.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/intro_blade.jpg
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/intro_ball.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/introduction-PuyoPuyo1.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/Bagic-INPUT-sourcecode.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedInputOutput2.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/AdvancedOutputAlpha11.gif
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/docs/generated/_images/draw_module_example.png
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/sdl2.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/controller.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/mixer.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/touch.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/audio.cpython-312-x86_64-linux-gnu.so
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/_sdl2/video.cpython-312-x86_64-linux-gnu.so
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/threads
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/threads/__init__.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/surfarray_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/touch_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/camera_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/rwobject_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image__save_gl_surface_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/cursors_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/math_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mouse_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/imageext_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/constants_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/draw_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/imageext_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/surflock_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mask_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/gfxdraw_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/video_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/surface_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/event_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/sprite_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/scrap_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/rect_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/midi_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/sndarray_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/sndarray_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/scrap_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/surfarray_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/base_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/docs_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/freetype_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/color_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_music_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/threads_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/pixelcopy_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/transform_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/pixelarray_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/freetype_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/ftfont_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/blit_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/font_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/locals_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/bufferproxy_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/controller_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/version_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/key_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/sysfont_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/time_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/display_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/joystick_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/__main__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/ftfont_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_music_tags.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image__save_gl_surface_test-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/scrap_test-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_music_test-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_test-pygbag.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image_test-pygbag.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/run_tests__test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/timeout
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/timeout/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/timeout/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/timeout/sleep_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete_todo
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete_todo/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete_todo/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete_todo/fake_3_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/failures1
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/failures1/fake_4_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/failures1/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/failures1/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/failures1/fake_3_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stdout
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stdout/fake_4_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stdout/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stdout/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stdout/fake_3_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/fake_6_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/zero_tests_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/fake_4_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/fake_5_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/fake_3_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/all_ok/no_assertions__ret_code_of_1__test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/exclude
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/exclude/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/exclude/magic_tag_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/exclude/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/exclude/invisible_tag_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/incomplete/fake_3_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stderr
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stderr/fake_4_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stderr/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stderr/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/print_stderr/fake_3_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/infinite_loop
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/infinite_loop/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/infinite_loop/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/infinite_loop/fake_1_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything/incomplete_todo_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything/fake_2_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything/magic_tag_test.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/run_tests__tests/everything/sleep_test.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/PyGameMono-8.bdf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/A_PyGameMono-8.png
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/test_fixed.otf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/test_sans.ttf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/PyGameMono.otf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/PlayfairDisplaySemibold.ttf
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/xbm_cursors
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/run_tests.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/endian.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/arrinter.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/__init__.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/async_sub.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/test_runner.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/test_machinery.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/buftools.py
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/test_utils/png.py
+Now in /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info/top_level.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info/WHEEL
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info/entry_points.txt
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info/METADATA
+     /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame-2.6.1.dist-info/RECORD
+Now in /.upm
+     /.upm/store.json
+Now in /.pythonlibs
+     /.pythonlibs/CACHEDIR.TAG
+     /.pythonlibs/pyvenv.cfg
+Now in /.pythonlibs/bin
+     /.pythonlibs/bin/activate
+     /.pythonlibs/bin/activate.csh
+     /.pythonlibs/bin/activate.fish
+     /.pythonlibs/bin/activate.nu
+     /.pythonlibs/bin/activate.ps1
+     /.pythonlibs/bin/activate.bat
+     /.pythonlibs/bin/deactivate.bat
+     /.pythonlibs/bin/pydoc.bat
+     /.pythonlibs/bin/activate_this.py
+     /.pythonlibs/bin/pygbag
+     /.pythonlibs/bin/python3
+     /.pythonlibs/bin/python
+     /.pythonlibs/bin/python3.12
+Now in /.pythonlibs/lib/python3.12/site-packages
+     /.pythonlibs/lib/python3.12/site-packages/_virtualenv.py
+     /.pythonlibs/lib/python3.12/site-packages/_virtualenv.pth
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/__main__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/aio.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/app.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/config_to_object.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/config_types.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/dbgserv.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/example_config.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/filtering.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/fnv.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/gateway.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/gathering.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/html_embed.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/mutator.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/pack.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/testserver.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/web.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing-pygbag.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag/support
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cpythonrc.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/offline.png
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pygbag_app.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pygbag_fsm.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pygbag_host.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pygbag_ui.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pygbag_ux.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pyodide.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/pyscript.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/readline.new
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/readline.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/typing_extensions.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cpythonrc-pygbag.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_ansi_sequences.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_context.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_parser.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_time.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_types.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/_xterm_parser.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/case.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/events.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/geometry.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/keys.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/message.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/_xterm_parser/messages.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/__EMSCRIPTEN__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/__WASM__.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/atexit.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/clock.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/cross.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/fetch.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/filelike.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/gthread.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/pep0723.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/prepro.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/recycle.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/repl.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/toplevel.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/aio/tracer.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/tomllib
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/tomllib/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/tomllib/_parser.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/tomllib/_re.py
+     /.pythonlibs/lib/python3.12/site-packages/pygbag/support/cross/tomllib/_types.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame.libs
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libSDL2_ttf-2-e6bdbc24.0.so.0.2000.1
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/liblz4-af1653fb.so.1.8.3
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libmpg123-fad61782.so.0.47.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libharfbuzz-f991c6ff.so.0.50100.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libpulsecommon-14-80414fd3.2.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libsharpyuv-5ed6246f.so.0.0.1
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libfluidsynth-3137fad6.so.3.1.1
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libpng16-bb793e21.so.16.37.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libgpg-error-3f09c3c7.so.0.10.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libsystemd-7fd64813.so.0.6.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libbz2-a273e504.so.1.0.6
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libtiff-23a934bd.so.5.8.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libelf-0-3d9de92a.176.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libopus-56ba99ed.so.0.8.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libSDL2_image-2-6bbdaa8d.0.so.0.2.3
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libpcre-9513aab5.so.1.2.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libgomp-a34b3233.so.1.0.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libpulse-simple-4ba3beb5.so.0.1.1
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libjpeg-4617cdcb.so.62.3.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libportmidi-6df3607d.so.2.0.3
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libpulse-5b5d1e90.so.0.23.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libselinux-0922c95c.so.1
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libasound-d80805e8.so.2.0.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libdw-0-780627ce.176.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libbrotlicommon-f54d67a1.so.1.0.9
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libFLAC-c5c6b3bc.so.8.3.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libvorbisenc-bb396c4a.so.2.0.12
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libfreetype-402bc0e3.so.6.18.3
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libcap-79733b59.so.2.22
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libopusfile-df4005ff.so.0.4.5
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libsndfile-2f719936.so.1.0.34
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libSDL2-2-1667c208.0.so.0.2800.4
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libvorbis-ac399090.so.0.4.9
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libdbus-1-5d678da9.so.3.14.14
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libvorbisfile-8aced0b7.so.3.3.8
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libSDL2_mixer-2-673d03d7.0.so.0.600.3
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libattr-4f2a9577.so.1.1.0
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/liblzma-004595ca.so.5.2.2
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libogg-3f4a1572.so.0.8.5
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libbrotlidec-ffc423df.so.1.0.9
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libwebp-3bee5bfa.so.7.1.8
+     /.pythonlibs/lib/python3.12/site-packages/pygame.libs/libgcrypt-18957bae.so.11.8.2
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/METADATA
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/WHEEL
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/entry_points.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/top_level.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/RECORD
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/REQUESTED
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/INSTALLER
+Now in /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/licenses
+     /.pythonlibs/lib/python3.12/site-packages/pygbag-0.9.3.dist-info/licenses/LICENSE
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame
+     /.pythonlibs/lib/python3.12/site-packages/pygame/rwobject.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/color.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/surface.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/draw_py.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/transform.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/constants.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/imageext.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/display.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/sysfont.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pixelcopy.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_camera_opencv.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pygame_icon.icns
+     /.pythonlibs/lib/python3.12/site-packages/pygame/freesansbold.ttf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/cursors.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/version.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/macosx.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/mouse.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/key.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_camera_vidcapture.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_camera.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_freetype.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/surflock.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/sndarray.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/mixer.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pypm.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pygame.ico
+     /.pythonlibs/lib/python3.12/site-packages/pygame/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/joystick.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/bufferproxy.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/midi.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/font.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/surfarray.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/base.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/camera.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/image.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/scrap.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/gfxdraw.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/py.typed
+     /.pythonlibs/lib/python3.12/site-packages/pygame/rect.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/newbuffer.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/draw.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/time.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pygame_icon_mac.bmp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/freetype.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pygame_icon.bmp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/sprite.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/ftfont.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/mixer_music.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/mask.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sprite.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/colordict.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pixelarray.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/pkgdata.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/locals.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/fastevent.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/math.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/event.cpython-312-x86_64-linux-gnu.so
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/examples
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/dropevent.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/vgrade.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/aliens.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/stars.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/sprite_texture.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/glcube.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/cursors.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/blit_blends.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound_array_demos.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/eventlist.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/headless_no_windows_needed.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/moveit.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/blend_fill.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/midi.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/joystick.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/setmodescale.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/textinput.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/testsprite.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/scrap_clipboard.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/music_drop_fade.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/camera.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/freetype_misc.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/scaletest.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/resizing_new.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/playmus.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/fonty.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/pixelarray.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/font_viewer.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/go_over_there.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/chimp.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/grid.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/video.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/arraydemo.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/mask.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/README.rst
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/scroll.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/audiocapture.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/liquid.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/aacircle.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/aliens-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/blit_blends-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound_array_demos-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/moveit-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/blend_fill-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/testsprite-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/scrap_clipboard-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/pixelarray-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/chimp-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/video-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/arraydemo-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/scroll-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/liquid-pygbag.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien3.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/yellow.tga
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/fist.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/grey.pgm
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/secosmic_lo.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/blue.mpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/sans.ttf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/cursor.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/boom.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/background.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/asprite.bmp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/BGR.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/bomb.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien1.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/green.pcx
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/crimson.pnm
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/static.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/blue.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/arraydemo.bmp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/teal.svg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/chimp.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/player1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/whiff.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien2.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/city.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/brick.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/red.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/car_door.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien2.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/shot.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/scarlet.webp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/turquoise.tif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/liquid.bmp
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/black.ppm
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/danger.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.mp3
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/laplacian.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/midikeys.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/alien3.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/purple.xpm
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/explosion1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/punch.wav
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo-pygbag.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/secosmic_lo-pygbag.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/boom-pygbag.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/whiff-pygbag.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/car_door-pygbag.ogg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/punch-pygbag.ogg
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/__pyinstaller
+     /.pythonlibs/lib/python3.12/site-packages/pygame/__pyinstaller/hook-pygame.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/__pyinstaller/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/__pyinstaller/hook-pygame-pygbag.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/__main__.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/genindex.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/LGPL.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/filepaths.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/py-modindex.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/logos.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/index.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/searchindex.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/search.html
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/filepaths.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/index.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/logos.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/c_api.rst.txt
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/pygame.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/scrap.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/sdl2_controller.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/gfxdraw.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/context.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/time.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/display.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/surface.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/sndarray.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/transform.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/overlay.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/mask.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/color_list.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/touch.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/music.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/fastevent.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/examples.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/mouse.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/rect.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/freetype.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/font.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/cursors.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/key.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/pixelcopy.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/surfarray.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/image.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/math.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/sprite.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/bufferproxy.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/pixelarray.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/cdrom.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/locals.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/sdl2_video.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/midi.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/color.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/camera.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/joystick.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/draw.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/event.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/tests.rst.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_sources/ref/mixer.rst.txt
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/DisplayModes.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/ChimpLineByLine.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/tom_games5.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/tom_games6.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/MoveIt.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/newbieguide.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/tom_games4.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/ImportInit.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/SurfarrayIntro.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/tom_games3.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/chimp.py.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/CameraIntro.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/PygameIntro.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/SpriteIntro.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/tom_games2.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/tut/MakeGames.html
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/bufferproxy.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/slots.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/surface.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/cdrom.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/event.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/version.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/rwobject.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/base.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/display.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/rect.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/freetype.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/surflock.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/mixer.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/c_api/color.html
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/sphinx_highlight.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/reset.css
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_logo.svg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/plus.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/_sphinx_javascript_frameworks_compat.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/doctools.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_lofi.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/jquery-3.5.1.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame.ico
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/tooltip.css
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/basic.css
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_powered.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_logo.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/underscore-1.13.1.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_tiny.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_lofi.svg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/underscore.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/searchtools.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/legacy_logos.zip
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_powered_lowres.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/language_data.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame.css
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/file.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygments.css
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/pygame_powered.svg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/documentation_options.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/minus.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/jquery-3.6.0.js
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_static/jquery.js
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/bufferproxy.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/joystick.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/surface.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/sndarray.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/cdrom.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/event.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/mouse.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/surfarray.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/math.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/sprite.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/sdl2_video.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/draw.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/tests.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/pixelarray.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/scrap.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/locals.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/key.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/pygame.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/context.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/fastevent.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/music.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/cursors.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/font.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/display.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/rect.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/camera.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/examples.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/color_list.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/freetype.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/gfxdraw.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/midi.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/mask.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/time.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/touch.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/pixelcopy.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/sdl2_controller.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/overlay.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/transform.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/mixer.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/color.html
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/ref/image.html
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Basic-ouput-sourcecode1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess51.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_allblack.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput31.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_rgb.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput21.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_thresh.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/tom_radians.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput51.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_scaleup.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_yuv.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-TPS.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess21.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-PuyoPuyo.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Basic-ouput-sourcecode.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_mask.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-Battleship1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-Battleship.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess61.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess5.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_rgbarray.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/pygame_lofi.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/chimpshot1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha21.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_thresholded.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/pygame_powered.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput5.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_flipped.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess41.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess31.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput3.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/pygame_logo.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_scaledown.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/pygame_tiny.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha31.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_soften.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess11.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_average.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha2.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess6.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/chimpshot.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_hsv.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/pygame_powered_lowres.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_background.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/camera_green.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-INPUT-resultscreen.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/tom_basic.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess3.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-INPUT-resultscreen1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-ouput-result-screen.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess2.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput1.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput41.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-TPS1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/angle_to.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_striped.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha3.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput11.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-ouput-result-screen1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/intro_freedom.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/tom_event-flowchart.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput4.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_xfade.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/surfarray_redimg.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputProcess4.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/joystick_calls.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-INPUT-sourcecode1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/tom_formulae.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/intro_blade.jpg
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/intro_ball.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/introduction-PuyoPuyo1.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/Bagic-INPUT-sourcecode.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedInputOutput2.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/AdvancedOutputAlpha11.gif
+     /.pythonlibs/lib/python3.12/site-packages/pygame/docs/generated/_images/draw_module_example.png
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/sdl2.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/controller.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/mixer.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/touch.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/audio.cpython-312-x86_64-linux-gnu.so
+     /.pythonlibs/lib/python3.12/site-packages/pygame/_sdl2/video.cpython-312-x86_64-linux-gnu.so
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/threads
+     /.pythonlibs/lib/python3.12/site-packages/pygame/threads/__init__.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/surfarray_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/touch_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/image_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/camera_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/rwobject_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/image__save_gl_surface_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/cursors_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/math_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mouse_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/imageext_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/constants_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/draw_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/imageext_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/surflock_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mask_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/gfxdraw_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/video_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/surface_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/event_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/sprite_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/scrap_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/rect_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/midi_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/sndarray_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/sndarray_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/scrap_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/surfarray_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/base_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/docs_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/freetype_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/color_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_music_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/threads_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/pixelcopy_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/transform_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/pixelarray_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/freetype_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/ftfont_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/blit_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/font_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/locals_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/bufferproxy_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/controller_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/version_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/key_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/sysfont_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/time_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/display_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/image_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/joystick_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/__main__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/ftfont_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_music_tags.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/image__save_gl_surface_test-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/scrap_test-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_music_test-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_test-pygbag.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/image_test-pygbag.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/run_tests__test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/timeout
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/timeout/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/timeout/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/timeout/sleep_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete_todo
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete_todo/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete_todo/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete_todo/fake_3_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/failures1
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/failures1/fake_4_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/failures1/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/failures1/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/failures1/fake_3_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stdout
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_4_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stdout/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_3_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/fake_6_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/zero_tests_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/fake_4_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/fake_5_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/fake_3_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/all_ok/no_assertions__ret_code_of_1__test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/exclude
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/exclude/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/exclude/magic_tag_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/exclude/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/exclude/invisible_tag_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/incomplete/fake_3_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stderr
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_4_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stderr/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_3_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/infinite_loop
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/infinite_loop/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/infinite_loop/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/infinite_loop/fake_1_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything/incomplete_todo_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything/fake_2_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything/magic_tag_test.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/run_tests__tests/everything/sleep_test.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/PyGameMono-8.bdf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/A_PyGameMono-8.png
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/test_fixed.otf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/test_sans.ttf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/PyGameMono.otf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/PlayfairDisplaySemibold.ttf
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/xbm_cursors
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/run_tests.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/endian.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/arrinter.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/__init__.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/async_sub.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/test_runner.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/test_machinery.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/buftools.py
+     /.pythonlibs/lib/python3.12/site-packages/pygame/tests/test_utils/png.py
+Now in /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/top_level.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/WHEEL
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/entry_points.txt
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/METADATA
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/RECORD
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/REQUESTED
+     /.pythonlibs/lib/python3.12/site-packages/pygame-2.6.1.dist-info/INSTALLER
+Now in /.pythonlibs/include/site/python3.12/pygame
+     /.pythonlibs/include/site/python3.12/pygame/_camera.h
+     /.pythonlibs/include/site/python3.12/pygame/_surface.h
+     /.pythonlibs/include/site/python3.12/pygame/_pygame.h
+     /.pythonlibs/include/site/python3.12/pygame/_blit_info.h
+     /.pythonlibs/include/site/python3.12/pygame/simd_blitters.h
+     /.pythonlibs/include/site/python3.12/pygame/pgarrinter.h
+     /.pythonlibs/include/site/python3.12/pygame/font.h
+     /.pythonlibs/include/site/python3.12/pygame/camera.h
+     /.pythonlibs/include/site/python3.12/pygame/mask.h
+     /.pythonlibs/include/site/python3.12/pygame/surface.h
+     /.pythonlibs/include/site/python3.12/pygame/pgopengl.h
+     /.pythonlibs/include/site/python3.12/pygame/pgcompat.h
+     /.pythonlibs/include/site/python3.12/pygame/freetype.h
+     /.pythonlibs/include/site/python3.12/pygame/pgplatform.h
+     /.pythonlibs/include/site/python3.12/pygame/mixer.h
+     /.pythonlibs/include/site/python3.12/pygame/scrap.h
+     /.pythonlibs/include/site/python3.12/pygame/pygame.h
+     /.pythonlibs/include/site/python3.12/pygame/palette.h
+     /.pythonlibs/include/site/python3.12/pygame/pgbufferproxy.h
+Now in /.pythonlibs/include/site/python3.12/pygame/include
+     /.pythonlibs/include/site/python3.12/pygame/include/pgimport.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame_bufferproxy.h
+     /.pythonlibs/include/site/python3.12/pygame/include/_pygame.h
+     /.pythonlibs/include/site/python3.12/pygame/include/bitmask.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame_freetype.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pgcompat.h
+     /.pythonlibs/include/site/python3.12/pygame/include/sse2neon.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pgplatform.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame_mask.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame_font.h
+     /.pythonlibs/include/site/python3.12/pygame/include/pygame_mixer.h
+optimizing /home/runner/workspace
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:62: UserWarning: Black not found for processing folder=PosixPath('/home/runner/workspace')
+  warnings.warn(f"Black not found for processing {folder=}")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential MP3 use in /home/runner/workspace/.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential XM use in /home/runner/workspace/.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/KxZ9iuwgKHoIG86psOrug/pygbag/support/cpythonrc.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/aliens.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blit_blends.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound_array_demos.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/moveit.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/blend_fill.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/testsprite.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scrap_clipboard.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/sound.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/pixelarray.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/chimp.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/video.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/arraydemo.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/scroll.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/liquid.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.ogg
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/secosmic_lo.wav
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/boom.wav
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/whiff.wav
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/car_door.wav
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.mp3
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/house_lo.wav
+opt-skip(73) /.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/examples/data/punch.wav
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/__pyinstaller/hook-pygame.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image__save_gl_surface_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/scrap_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_music_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential MP3 use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_music_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/mixer_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.cache/uv/archive-v0/gsajUAcwizsfnefPomu_D/pygame/tests/image_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential MP3 use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential XM use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/support/cpythonrc.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/aliens.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/blit_blends.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound_array_demos.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/moveit.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/blend_fill.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/testsprite.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/scrap_clipboard.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/sound.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/pixelarray.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/chimp.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/video.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/arraydemo.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/scroll.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/examples/liquid.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.ogg
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/secosmic_lo.wav
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/boom.wav
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/whiff.wav
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/car_door.wav
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.mp3
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/house_lo.wav
+opt-skip(73) /.pythonlibs/lib/python3.12/site-packages/pygame/examples/data/punch.wav
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/__pyinstaller/hook-pygame.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/image__save_gl_surface_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/scrap_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_music_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential MP3 use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_music_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential WAV use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/mixer_test.py, prefer .ogg !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/optimizing.py:123: UserWarning: potential BMP use in /home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygame/tests/image_test.py, prefer .png !
+  warnings.warn(f"potential {bad.upper()} use in {fname}, prefer .{good} !")
+	/home/runner/workspace : README.md
+	/home/runner/workspace : space_shooter.py
+	/home/runner/workspace : writeThis.txt
+	/home/runner/workspace : main.py
+	/home/runner/workspace : pyproject.toml
+	/home/runner/workspace : uv.lock
+	/home/runner/workspace : run.sh
+	/home/runner/workspace : .cache/replit/modules.stamp
+	/home/runner/workspace : .cache/replit/toolchain.json
+	/home/runner/workspace : .cache/replit/modules/replit
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/__main__.py", line 289, in <module>
+    asyncio.run(import_site())
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/__main__.py", line 23, in import_site
+    await main_run(app_folder, mainscript)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/app.py", line 475, in main_run
+    await pack.archive(f"{app_name}.apk", app_folder, ignore_dirs, ignore_files, build_dir)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/pack.py", line 160, in archive
+    await pack_files(zf, packlist, ["assets"], target_folder)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pygbag/pack.py", line 54, in pack_files
+    zf.write(zip_content, zip_name)
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/zipfile/__init__.py", line 1867, in write
+    zinfo = ZipInfo.from_file(filename, arcname,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/zipfile/__init__.py", line 589, in from_file
+    zinfo = cls(arcname, date_time)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iizfzmqjdfvbyx82gqw92glb5zl6m4my-python3-3.12.12/lib/python3.12/zipfile/__init__.py", line 414, in __init__
+    raise ValueError('ZIP does not support timestamps before 1980')
+ValueError: ZIP does not support timestamps before 1980
